@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.container{
+    /* border:2px solid red; */
+    width:30vw;
+    height:50vh;
+    border-radius: 10px;
+    background-color:  	rgb(56,56,56);
+}
+.heading{
+    margin-top: 8vh;
+    margin-left: 3vw;
+    color:white;
+}
+.dis{
+    margin-left: 3vw;
+    color:gray;
+    margin-bottom: 6vh;
+    width:23vw;
+}
+.rating{
+    margin-left: 3vw;
+}
+.btn{
+    border:2px solid black;
+    margin-right: 2vw;
+    border-radius: 50%;
+    /* font-size: 3vh; */
+    width:3vw;
+    height:5vh;
+    padding:2px;
+    background-color:  	rgb(56,56,56);
+    color:gray;
+}
+.btn:hover{
+    background-color: gray;
+    color:rgb(56,56,56);
+}
+.submit{
+    margin-top: 3vh;
+    margin-left: 5vw;
+    width:20vw;
+    height: 5vh;
+    border-radius: 15px;
+    background-color:white;
+    color:orange;
+    font-weight: bolder;
+    font-size:medium;
+
+}
+.hidden{
+    display: none;
+}
+.changing{
+    background-color: orange;
+    color:white;
+}
+.changing:hover{
+    background-color: orange;
+    color:white;
+}
+
+
+
+/* addding css to container-2 */
+.container-2{
+    width:30vw;
+    height:50vh;
+    border-radius: 10px;
+    background-color:  	rgb(56,56,56);
+}
+.thank_image{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.image{
+    margin-top: 5vh;
+}
+.note{
+    color:orange;
+    width:20vw;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    padding:7px;
+    font-size: smaller;
+    text-align: center; 
+}
+.thank{
+    margin-left: 10vw;
+    color:white;
+}
+.thank_dis{
+    /* border:2px solid red; */
+    margin-left: 2.5vw;
+    width:25vw;
+    font-size: small;
+    text-align: center;
+    color:gray;
+
+}
